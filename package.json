@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "Put those d@m emojis on your writings",
   "main": "index.js",
-  "scripts": {},
+  "bin": "cli.js",
   "author": "Michael Jae-Yoon Chung",
   "license": "MIT",
   "repository": "https://gitlab.com/mjyc/emojier",

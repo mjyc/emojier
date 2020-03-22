@@ -1,9 +1,7 @@
 const fs = require("fs");
 const emoj = require("emoj");
 
-const input = fs.readSync(process.argv[2]);
-
-const main = async texts => {
+module.exports = async texts => {
   const lines = texts.split(".").map(line => line.trim());
   const emojis = (await Promise.all(lines.map(line => emoj(line)))).map(
     results => results[0]
@@ -12,7 +10,5 @@ const main = async texts => {
     (txts, emoji) => txts.replace(".", `${emoji}`),
     texts
   );
-  console.log(outtexts);
+  return outtexts;
 };
-
-main(input);
