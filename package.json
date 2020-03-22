@@ -1,0 +1,13 @@
+{
+  "name": "emojier",
+  "version": "0.0.0",
+  "description": "Put those d@m emojis on your writings",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Michael Jae-Yoon Chung",
+  "license": "MIT",
+  "repository": "https://gitlab.com/mjyc/emojier",
+  "dependencies": {
+    "emoj": "3.0.1"
+  }
+}
