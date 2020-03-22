@@ -3,5 +3,6 @@
 Put those d@m emojis on your writings
 
 ```
-cat {yourwriting}.txt | ./cli.js
+npm install --global emojier
+cat writing.txt | emojier
 ```
