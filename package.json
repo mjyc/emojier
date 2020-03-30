@@ -1,6 +1,6 @@
 {
   "name": "emojier",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Put those d@m emojis on your writings",
   "main": "index.js",
   "bin": "cli.js",
